@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: darkslateblue;
+    background-color: rgb(52, 43, 111);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ h2 {
 }
 
 .comodo {
-    border: 2px solid #690505;
+    border: 3px solid #047a27;
     width: 210px;
     border-radius: 15px;
     margin-top: 10px;
@@ -37,6 +37,7 @@ h2 {
     cursor: pointer;
     font-weight: bolder;
     background-color: #8b8585;
+    border-radius: 16px;
 }
 
 .acesa{
