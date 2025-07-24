@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    margin-top: 12px;
+    margin-top: 10px;
     font-size: 40px;
 }
 
@@ -21,7 +21,7 @@ h2 {
 
 .comodo {
     border: 3px solid #047a27;
-    width: 210px;
+    width: 200px;
     border-radius: 15px;
     margin-top: 10px;
 }
