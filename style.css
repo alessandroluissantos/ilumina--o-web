@@ -11,17 +11,17 @@ body {
 
 h1 {
     margin-top: 12px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
 .comodo {
-    border: 1px solid #690505;
-    width: 200px;
+    border: 2px solid #690505;
+    width: 210px;
     border-radius: 15px;
     margin-top: 10px;
 }
@@ -36,9 +36,10 @@ h2 {
     font-size: 20px;
     cursor: pointer;
     font-weight: bolder;
+    background-color: #8b8585;
 }
 
 .acesa {
-    color: yellow;
+    text-shadow: 0 0 20px yellow;
 
 }
