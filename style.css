@@ -7,5 +7,22 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+h1 {
+    margin-top: 12px;
+    font-size: 60px;
+
+}
+h2 {
+    font-size: 50px;
+}
+
+.comodo {
+    border: ipx solid #690505;
+    width 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+    
 
 }
