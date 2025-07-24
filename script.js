@@ -6,7 +6,7 @@ function ligarLampadaSala() {
 
 }
 
-function LigarLampadaCozinha() {
+function ligarLampadaCozinha() {
     alert("ligarLampadaCozinha");
 
 }

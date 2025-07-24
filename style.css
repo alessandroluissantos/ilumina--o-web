@@ -20,8 +20,8 @@ h2 {
 }
 
 .comodo {
-    border: ipx solid #690505;
-    width 200px;
+    border: 1px solid #690505;
+    width: 200px;
     border-radius: 15px;
     margin-top: 10px;
 }
