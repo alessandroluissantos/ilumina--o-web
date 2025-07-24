@@ -18,25 +18,36 @@ clienteWeb.connect({
 
 
 function ligarLampadaSala() {
+    const msg = new Paho.MQTT.Message("");
+
     if (lampadaSalaLigada === false) {
         document.getElementById("lamp-sala").classList.add("acesa");    
         document.getElementById("bt-sala").textContent = "Desligar"
         lampadaSalaLigada = true;
-
+        msg.destinationName = "senai604/lampada/sala/ligar"
     } else {
         document.getElementById("lamp-sala").classList.remove("acesa")
         document.getElementById("bt-sala").textContent = "Ligar"
         lampadaSalaLigada = false;
+        msg.destinationName = "senai604/lampada/sala/desligar"
     }
+    clienteWeb.send(msg);
 }
 function ligarLampadaCozinha() {
+    const msg = new Paho.MQTT.Message("");
+
     if (lampadaCozinhaLigada == false) {
-        lampadaCozinhaLigada = true;
+        document.getElementById("lamp-cozinha").classList.add("acesa");
         document.getElementById("bt-cozinha").textContent = "Desligar"
+        lampadaCozinhaLigada = true;
+        msg.destinationName = "senai604/lampada/cozinha/ligar"
+      
     } else {
-        lampadaCozinhaLigada = false;
+        document.getElementById("lamp-cozinha").classList.remove("acesa");
         document.getElementById("bt-cozinha").textContent = "Ligar"
+        lampadaCozinhaLigada = false;
+        msg.destinationName = "senai604/lampada/cozinha/desligar"
     }
-    document.getElementById("lamp-cozinha").classList.toggle("acesa")
+    clienteWeb.send(msg);
 }
 
