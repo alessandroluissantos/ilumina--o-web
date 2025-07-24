@@ -12,10 +12,11 @@ body {
 h1 {
     margin-top: 12px;
     font-size: 60px;
-
 }
+
 h2 {
     font-size: 50px;
+
 }
 
 .comodo {
@@ -23,6 +24,21 @@ h2 {
     width 200px;
     border-radius: 15px;
     margin-top: 10px;
-    
+}
+
+.lampada {
+    font-size: 80px;
+    }
+
+.button {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.acesa {
+    color: yellow;
 
 }
